@@ -2,5 +2,10 @@
   "four": "four",
   "one": "one",
   "three": "three",
-  "two": "two"
+  "two": "two",
+  
+  "titles": {
+    "mr": "mr",
+    "mrs": "mrs"
+  }
 }
