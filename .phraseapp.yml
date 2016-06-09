@@ -3,12 +3,12 @@ phraseapp:
   project_id: 4b4ed4b0323ba298c796154b07716faf
   push:
     sources:
-    - file: "translations_<locale_name>.json"
+    - file: "<locale_name>.json"
       params:
         file_format: json
   pull:
     targets:
-    - file: "translations_<locale_name>.json"
+    - file: "<locale_name>.json"
       params:
         update_translations: true
         file_format: json
