@@ -1,8 +1,8 @@
 {
-  "title": "The Portal",
-  "lang": "English",
-  "mr": "Mr",
-  "miss": "Miss",
-  "yo": "yo",
-  "tra": "ta"
+  "one": {
+    "message": "one"
+  },
+  "two": {
+    "message": "two"
+  }
 }
