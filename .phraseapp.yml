@@ -2,9 +2,8 @@ phraseapp:
   access_token: ead64eaed33ca53c4a0ed15dcde0703d6dacf1e7fe05be26759dc2324946bc06
   project_id: c6eec08ccbb877d2d9098b85ba4eae8c
   defaults:
-    keys/list:
-      sort: "created_at"
-      order: "desc"
+    sort: "created_at"
+    order: "desc"
   push:
     sources:
     - file: "translations.<locale_name>.json"
