@@ -1,5 +1,6 @@
 {
   "child": "Kind",
+  "five": "fünf",
   "four": "vier",
   "one": "eins",
   "onion": "Zweibel",
@@ -8,6 +9,5 @@
     "mr": "Herr",
     "mrs": "Frau"
   },
-  "two": "zwei",
-  "onion": "Zweibel"
+  "two": "zwei"
 }
