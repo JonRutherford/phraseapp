@@ -43,9 +43,9 @@
     "invitations": "Invitations",
     "greeting": "It seems as if you have been invited to an access to someone's door by the KIWI.KI application. Please, choose which action should be performed.",
     "errorAccepting": "An error occured. Check if the invitation token is valid; please remember that you can only accept a particular invitation once, and it is only valid for 48 hours.",
-    "typeEmails": "Invite people by email (type below, separate e-mails with commas or space):",
+    "typeEmails": "Invite people by e-mail (type below, separate e-mails with commas or space):",
     "accept1": "Accept the invitation as",
-    "accept2": "Log in with another email and accept the invitation",
+    "accept2": "Log in with another e-mail and accept the invitation",
     "accept3": "Log in and accept the invitation",
     "accept4": "Create a new account and accept the invitation",
     "addEmail": "Enter your email address here"
@@ -178,7 +178,7 @@
     "namePlaceholder": "Name",
     "error": "Could not rename.",
     "addAnotherAccess": "Add another access for this person",
-    "addAnotherEmail": "Add a new access for this email",
+    "addAnotherEmail": "Add a new access for this e-mail",
     "me": "Me"
   },
   "ki": {
@@ -205,12 +205,12 @@
     "info2": "You can find the PIN in the writing of KIWI.KI GmbH."
   },
   "resetPwd": {
-    "greeting": "Have you forgotten your password? Enter your email below and a reset link will be sent to your inbox. If you have further problems, please contact support.",
+    "greeting": "Have you forgotten your password? Enter your e-mail below and a reset link will be sent to your inbox. If you have further problems, please contact support.",
     "step2": "Please specify your new password below.",
     "email": "Your email",
     "header1": "Reset password",
     "reseted": "Your password has been reset. Check your e-mail inbox and follow the instructions.",
-    "fail1": "Sorry! Something went wrong. Check if the given email is correct.",
+    "fail1": "Sorry! Something went wrong. Check if the given e-mail is correct.",
     "reset": "Reset",
     "newPwd": "Your new password"
   },
@@ -222,16 +222,18 @@
   "account": {
     "myaccount": "My account",
     "paymentMethods": "Payment methods",
+    "billingPlan": "Current billing plan",
+    "detailsAdded": "Details added on",
     "chooseMethod": "Please select desired payment method.",
     "verification_level": "Verification level",
-    "changeEmail": "Change email address",
+    "changeEmail": "Change e-mail address",
     "changePassword": "Change password",
-    "new_email": "Please enter new email address",
+    "new_email": "Please enter new e-mail address",
     "new_email_guide": "You will receive confirmation link to both new and old email account.",
     "changeEmailConfirm1": "Is your new email address, ",
     "changeEmailConfirm2": ", correct?",
-    "emailChangeSsuccess": "You should receive a confirmation link to your new email address shortly. Please follow instructions given in the email in order to complete the process.",
-    "emailChangeConfirmed": "You can now login with new email address",
+    "emailChangeSsuccess": "You should receive a confirmation link to your new e-mail address shortly. Please follow instructions given in the email in order to complete the process.",
+    "emailChangeConfirmed": "You can now login with new e-mail address",
     "pending": "not yet verified",
     "plan_migration_ok": "Accept upgrade to PREMIUM-Package",
     "plan_migration": "Dear Customer, by creating a new access, you request to get upgraded to the PREMIUM-Package. The PREMIUM-Package costs € 5,90 monthly and enables you to create up to 8 permanent accesses that you can share to your own convenience. You will be able to manage them according to your needs, i.e., you can hold 3 for your family and still invite 5 friends to your doors. For further information follow the next link: https://kiwi.ki/en/preisuebersicht-bewohner/",
@@ -247,7 +249,7 @@
       "undefined": "unknown"
     },
     "error": {
-      "changeEmail": "Your email could not be changed. Make sure there is no KIWI account registered under provided e-mail.",
+      "changeEmail": "Your e-mail could not be changed. Make sure there is no KIWI account registered under provided e-mail.",
       "sameEmail": "You have to provide an email different from your current one."
     },
     "data": {
@@ -290,9 +292,13 @@
       "sepadirectdebit": "Bank account",
       "SEPA": "Bank account (pending)"
     },
+    "methods": {
+      "CARD": "Credit card",
+      "SEPA": "Bank account"
+    },
     "edition": {
       "details_create": "Add payment information",
-      "details_edit": "Payment information"
+      "details_edit": "Payment method"
     },
     "statement": {
       "billing_statements": "Statements",
@@ -303,11 +309,19 @@
       "pdf": "Download PDF statement",
       "total": "Total balance"
     },
-    "billing_plan": {
-      "comfort": "Comfort",
-      "premium": "Premium"
+    "transaction_type": {
+      "USAGE": "Monthly usage",
+      "NEW_METHOD": "Payment method verification",
+      "CREDIT": "Credit granted",
+      "PAYMENT": "Charge through payment provider"
     },
-    "reset_password_failed": "Sorry, this link has expired. \nTo reset your password, please reuse the \"Forgot password\" feature.",
+    "billing_plan": {
+      "single": "Single",
+      "family": "Family",
+      "comfort": "Comfort",
+      "premium": "Premium",
+      "none": "not billed"
+    },
     "set_credit_card": "Do you want to set the above as your payment method?"
   },
   "pictures": {
