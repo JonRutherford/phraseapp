@@ -1,0 +1,336 @@
+{
+  "version": {
+    "title": "App Version",
+    "version": "beta 6",
+    "lang": "en"
+  },
+  "title": "KIWI.KI - Secure. Easy. Fast.",
+  "general": {
+    "yes": "Yes",
+    "no": "No",
+    "done": "Done",
+    "edit": "Edit",
+    "change": "Change",
+    "back": "Back",
+    "cancel": "Cancel",
+    "save": "Save",
+    "add": "Add",
+    "invalidDate": "Invalid date and time given.",
+    "confirm": "Confirm",
+    "claimKiPt1": "Nothing to show here, try",
+    "claimKiPt2": "claiming a KIWI KI.",
+    "claimKiPt3": "Doors which you have access to, can be opened and managed in this area",
+    "connectivity_fail": "There was a connectivity problem. Please refresh the page.",
+    "session_expired": "Your session has expired",
+    "logged_out": "You have been successfully logged out",
+    "filters": {
+      "tabs": {
+        "all": "All",
+        "internal": "Internal",
+        "external": "External",
+        "mine": "Mine",
+        "valid": "Valid"
+      }
+    }
+  },
+  "home": {
+    "cheering": "KIWI. The secure solution",
+    "cheeringLine2": "for a keyless life."
+  },
+  "invitations": {
+    "invitationToSend": "Invitation will be sent after access is saved",
+    "invitationSent": "Invitation pending",
+    "invitations": "Invitations",
+    "greeting": "It seems as if you have been invited to an access to someone's door by the KIWI.KI application. Please, choose which action should be performed.",
+    "errorAccepting": "An error occured. Check if the invitation token is valid; please remember that you can only accept a particular invitation once, and it is only valid for 48 hours.",
+    "typeEmails": "Invite people by e-mail (type below, separate e-mails with commas or space):",
+    "accept1": "Accept the invitation as",
+    "accept2": "Log in with another e-mail and accept the invitation",
+    "accept3": "Log in and accept the invitation",
+    "accept4": "Create a new account and accept the invitation",
+    "addEmail": "Enter your email address here"
+  },
+  "emptyList": {
+    "noKiPt1": "You do not have any KIWI Ki in your account. Would you like to",
+    "noKiPt2": "claim a KIWI Ki?",
+    "noDoor": "You do not have access to any doors. If KIWI is available in your building, please contact support.",
+    "noAccesses": "You have not defined any accessess. Until you do, your KIWI Ki will not function."
+  },
+  "login": {
+    "username": "Email",
+    "password": "Password",
+    "login": "Login",
+    "passwordforgotten": "Forgot password?",
+    "or": "Or",
+    "register": "Create Account",
+    "error": "The login you provided does not match an account in our records. Please try again."
+  },
+  "register": {
+    "register": "Create Account",
+    "username": "Username",
+    "email": "Email",
+    "password": "Password",
+    "passwordOld": "Old password",
+    "passwordNew": "New password",
+    "password2": "Password again",
+    "create": "Create",
+    "notFilled": "All fields must be given.",
+    "passwordsDontMatch": "Both passwords must be the same.",
+    "error": "Could not register.",
+    "success": "Thank you for registering. Please check your email for the activation link.",
+    "already": "I already have an account",
+    "tc": "I agree with the",
+    "tc2": " terms and conditions",
+    "greeting": "In order to use our services, an account is required. Simply enter your e-mail and password below, agree to our Terms and Services, then click \"Create.\" After confirming your e-mail address, you can begin immediately.",
+    "failure": "Invalid request. Please try clicking the link again or contact support.",
+    "TOSfailure": "You must accept our terms and services in order to proceed.",
+    "tooWeak": "Your password is too weak.",
+    "name": "Name",
+    "surname": "Surname",
+    "mrs": "Mrs.",
+    "mr": "Mr.",
+    "pwdStr0": "Password is too weak",
+    "pwdStr1": "Password is too weak",
+    "pwdStr2": "Password is too weak",
+    "pwdStr3": "Password is OK",
+    "pwdStr4": "Password is good",
+    "pwdStr5": "Password is strong",
+    "wrongEmail": "Given email address is not correct.",
+    "alreadyRegistered": "This email adready exists in our database. You can only have one account per email address.",
+    "noTitle": "Please select your salutation.",
+    "migrate": "Migrate your account",
+    "migrate_instruction": "As existing KIWI user, please enter your KIWI customer number and Ki PIN, that you received by mail to register within the KIWI App.",
+    "migrate_confirm": "Confirm",
+    "customer_number": "Customer number",
+    "passwordChangeFailure": "Could not change the password. Make sure your old password is correct.",
+    "changePasswordConfirm": "Are you sure you want to change your password?"
+  },
+  "tc": {
+    "tc": "Terms and Conditions",
+    "content": "The TCs"
+  },
+  "imprint": {
+    "imprint": "Imprint",
+    "content": "The imprint"
+  },
+  "navbar": {
+    "doors": "Doors",
+    "access": "Accesses",
+    "people": "People",
+    "more": "More"
+  },
+  "doors": {
+    "doors": "Doors",
+    "open": "Open",
+    "open_close": "Activate",
+    "close": "Lock",
+    "openerror": "Could not open the door.",
+    "namePlaceholder": "Name",
+    "error": "Could not rename the door.",
+    "turn_knob": "Please turn the knob to unlock or lock",
+    "wait": "Please wait a moment",
+    "sortby_aplhanum": "alphabetical",
+    "sortby_location": "near me"
+  },
+  "more": {
+    "more": "More",
+    "ki": "My KIWI Ki",
+    "logout": "Logout",
+    "loggedInAs": "Logged in as ",
+    "customerNumber": "Customer number "
+  },
+  "access": {
+    "access": "Accesses",
+    "edit": "Edit Accesses",
+    "namePlaceholder": "Name",
+    "error": "Could not edit access.",
+    "add": "Add Access",
+    "name": "Name",
+    "people": "People",
+    "doors": "Doors",
+    "noName": "No name given.",
+    "noPeople": "No people given.",
+    "noDoors": "No door given.",
+    "addError": "Could not add access.",
+    "suspend": "Suspend this access:",
+    "permanent": "Always",
+    "startdate": "Start date",
+    "starttime": "Start time",
+    "enddate": "End date",
+    "endtime": "End time",
+    "suspendConfirmation": "Really suspend this access?",
+    "singleAccess": "Access",
+    "unnamed": "Unnamed access",
+    "editPeople": "Edit people",
+    "editDoors": "Edit doors",
+    "addNew": "Add new access",
+    "editTime": "Time",
+    "delete_access": "Delete access",
+    "delete_confirm": "Do you really want to delete access?",
+    "disableCreatingAccess_noDoor": "You have no doors you could create access with.",
+    "disableCreatingAccess_unverified": "Your address has not been verified yet. Please contact <a id=\"btnTC\" href=\"mailto:service@kiwi.ki?subject=Verification\">service@kiwi.ki</a> in order to do so."
+  },
+  "invitation": {
+    "addEmail": "Add an email"
+  },
+  "people": {
+    "people": "People",
+    "namePlaceholder": "Name",
+    "error": "Could not rename.",
+    "addAnotherAccess": "Add another access for this person",
+    "addAnotherEmail": "Add a new access for this e-mail",
+    "me": "Me"
+  },
+  "ki": {
+    "ki": "My KIWI Ki",
+    "claim": "Claim KIWI Ki",
+    "me": "This KIWI Ki acts as the 'Me' person.",
+    "set_as_me": "Set this KIWI Ki as 'Me' person",
+    "suspend": "Suspend this KIWI Ki",
+    "reinstantiate": "Reinstantiate this KIWI Ki"
+  },
+  "claimKi": {
+    "id": "Ki ID",
+    "puk": "Ki PIN",
+    "confirmCancel": "Do you really want to cancel?",
+    "error": "Could not add the KIWI Ki.",
+    "claimExpected": "Ki PIN not available?",
+    "addWithAddress": " Add with address.",
+    "name": "Name",
+    "street": "Street",
+    "housenumber": "Housenumber",
+    "zipcode": "Zipcode",
+    "city": "City",
+    "info1": "For security resons, in order to complete your KIWI Ki registration, please enter the PIN that came in the mail from KIWI.KI GmbH.",
+    "info2": "You can find the PIN in the writing of KIWI.KI GmbH."
+  },
+  "resetPwd": {
+    "greeting": "Have you forgotten your password? Enter your e-mail below and a reset link will be sent to your inbox. If you have further problems, please contact support.",
+    "step2": "Please specify your new password below.",
+    "email": "Your email",
+    "header1": "Reset password",
+    "reseted": "Your password has been reset. Check your e-mail inbox and follow the instructions.",
+    "fail1": "Sorry! Something went wrong. Check if the given e-mail is correct.",
+    "reset": "Reset",
+    "newPwd": "Your new password"
+  },
+  "changeLanguage": {
+    "helperText": "Change language",
+    "english": "English",
+    "german": "German"
+  },
+  "account": {
+    "myaccount": "My account",
+    "paymentMethods": "Payment methods",
+    "billingPlan": "Current billing plan",
+    "detailsAdded": "Details added on",
+    "chooseMethod": "Please select desired payment method.",
+    "verification_level": "Verification level",
+    "changeEmail": "Change e-mail address",
+    "changePassword": "Change password",
+    "new_email": "Please enter new e-mail address",
+    "new_email_guide": "You will receive confirmation link to both new and old email account.",
+    "changeEmailConfirm1": "Is your new email address, ",
+    "changeEmailConfirm2": ", correct?",
+    "emailChangeSsuccess": "You should receive a confirmation link to your new e-mail address shortly. Please follow instructions given in the email in order to complete the process.",
+    "emailChangeConfirmed": "You can now login with new e-mail address",
+    "pending": "not yet verified",
+    "plan_migration_ok": "Accept upgrade to PREMIUM-Package",
+    "plan_migration": "Dear Customer, by creating a new access, you request to get upgraded to the PREMIUM-Package. The PREMIUM-Package costs € 5,90 monthly and enables you to create up to 8 permanent accesses that you can share to your own convenience. You will be able to manage them according to your needs, i.e., you can hold 3 for your family and still invite 5 friends to your doors. For further information follow the next link: https://kiwi.ki/en/preisuebersicht-bewohner/",
+    "changePasswordConfirm": "Are you sure you want to change your password?",
+    "change_data": "Do you want to change your account data?",
+    "set_bank_account": "Do you want to set the above as your payment method?",
+    "verification_levels": {
+      "_12": "no access to account",
+      "_1": "unverified",
+      "_2": "unverified, KIWI Ki Claimed",
+      "_11": "verified",
+      "_0": "no verification",
+      "undefined": "unknown"
+    },
+    "error": {
+      "changeEmail": "Your e-mail could not be changed. Make sure there is no KIWI account registered under provided e-mail.",
+      "sameEmail": "You have to provide an email different from your current one."
+    },
+    "data": {
+      "holder": "Card holder name and surname",
+      "number": "Card number",
+      "last_four": "Last four digits",
+      "expiry_mm": "Expiry month",
+      "expiry_yyyy": "Expiry year",
+      "cvc": "CVC number",
+      "mm": "MM",
+      "yyyy": "YYYYY",
+      "variant": "Card issuer",
+      "cvc_placeholder": "CVC",
+      "last_known_email": "Email",
+      "update_note": "You will be charged 1€ which will be returned immediately after we verify your credit card. Please note that updating your credit card data will not affect the application immediately.",
+      "update_confirm": "Do you really want to update your credit card data?",
+      "iban": "IBAN (include country code)",
+      "bic": "BIC",
+      "name_bank": "Account holder name",
+      "security_note": "KIWI.KI GmbH won’t store any of your credit card data. All data will be stored by our certified payment provider Adyen.",
+      "bank_pending": "There's a payment method pending approval in your account already.",
+      "information_incorrect": "Entered information is incorrect. Please check all entered fields.",
+      "bank": {
+        "iban": "IBAN Number",
+        "bic": "BIC",
+        "owner_name": "Owner name"
+      }
+    },
+    "variants": {
+      "mc": "MasterCard",
+      "visa": "Visa",
+      "amex": "American Express",
+      "maestro": "Maestro",
+      "maestrouk": "Maestro UK",
+      "bijcard": "Bijenkorf Card",
+      "diners": "Diners",
+      "discover": "Discover",
+      "bank": "IBAN (bank account)",
+      "cc": "Credit card",
+      "sepadirectdebit": "Bank account",
+      "SEPA": "Bank account (pending)"
+    },
+    "methods": {
+      "CARD": "Credit card",
+      "SEPA": "Bank account"
+    },
+    "edition": {
+      "details_create": "Add payment information",
+      "details_edit": "Payment method"
+    },
+    "statement": {
+      "billing_statements": "Statements",
+      "action": "Action",
+      "charged_monthly": "Full month",
+      "day": "day",
+      "days": "days",
+      "pdf": "Download PDF statement",
+      "total": "Total balance"
+    },
+    "transaction_type": {
+      "USAGE": "Monthly usage",
+      "NEW_METHOD": "Payment method verification",
+      "CREDIT": "Credit granted",
+      "PAYMENT": "Charge through payment provider"
+    },
+    "billing_plan": {
+      "single": "Single",
+      "family": "Family",
+      "comfort": "Comfort",
+      "premium": "Premium",
+      "none": "not billed"
+    },
+    "set_credit_card": "Do you want to set the above as your payment method?"
+  },
+  "pictures": {
+    "saveInfoAccess": "You have to save access after changing or deleting picture.",
+    "delete": "Delete picture",
+    "change": "Change picture",
+    "add": "Upload picture"
+  },
+  "tour": {
+    "kiClaimed": "You can manage your doors here"
+  }
+}
